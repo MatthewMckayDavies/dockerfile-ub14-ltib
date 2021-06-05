@@ -21,11 +21,11 @@ docker run --rm -it -v $PWD:/home/workspace -v ltib-opt:/opt -e DISPLAY=$DISPLAY
 # i.MX25 PDK LTIB notes
 
 Requisites
-L2.6.31_09.12.00_SDK_source.tar.gz on the installation media
-Oneiric patch: 
+* L2.6.31_09.12.00_SDK_source.tar.gz on the installation media
+* Oneiric patch: 
 wget 'https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/imx-processors/9195/1/519-oneiricltibpatch.tgz'
 
-pkgs.tar.gz or use the pkgs found in the SDK
+* pkgs.tar.gz or use the pkgs found in the SDK
 
 
 Untar the SDK in a temporary directory. The SDK contains a pkgs directory and ltib.tar.gz. Can use a recursive copy of the pkgs directory or untar if using pkgs.tar.gz
